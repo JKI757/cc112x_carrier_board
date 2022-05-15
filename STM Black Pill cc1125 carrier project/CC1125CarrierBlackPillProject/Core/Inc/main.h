@@ -69,9 +69,6 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 #define BoardLED_Pin LL_GPIO_PIN_13
 #define BoardLED_GPIO_Port GPIOC
-#define TI_GPIO_2_Pin LL_GPIO_PIN_0
-#define TI_GPIO_2_GPIO_Port GPIOA
-#define TI_GPIO_2_EXTI_IRQn EXTI0_IRQn
 #define TI_GPIO_3_Pin LL_GPIO_PIN_1
 #define TI_GPIO_3_GPIO_Port GPIOA
 #define TI_GPIO_3_EXTI_IRQn EXTI1_IRQn
@@ -84,8 +81,10 @@ void Error_Handler(void);
 #define GPIO_OUT_3_GPIO_Port GPIOB
 #define GPIO_OUT_2_Pin LL_GPIO_PIN_1
 #define GPIO_OUT_2_GPIO_Port GPIOB
-#define GPIO_OUT_1_Pin LL_GPIO_PIN_2
+#define GPIO_OUT_1_Pin LL_GPIO_PIN_15
 #define GPIO_OUT_1_GPIO_Port GPIOB
+#define TI_GPIO_2_Pin LL_GPIO_PIN_4
+#define TI_GPIO_2_GPIO_Port GPIOB
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
