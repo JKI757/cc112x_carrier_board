@@ -69,6 +69,8 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 #define BoardLED_Pin LL_GPIO_PIN_13
 #define BoardLED_GPIO_Port GPIOC
+#define BOARD_KEY_SWITCH_Pin LL_GPIO_PIN_0
+#define BOARD_KEY_SWITCH_GPIO_Port GPIOA
 #define TI_GPIO_3_Pin LL_GPIO_PIN_1
 #define TI_GPIO_3_GPIO_Port GPIOA
 #define TI_GPIO_3_EXTI_IRQn EXTI1_IRQn
